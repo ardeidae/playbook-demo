@@ -108,7 +108,7 @@
     # Deploying Django--an-app-at-a-time
     ###################
     - name: Git clone/pull Django--an-app-at-a-time
-      git: repo=https://github.com/sametmax/Django--an-app-at-a-time.git
+      git: repo=https://github.com/ardeidae/Django--an-app-at-a-time.git
            dest=/home/{{ user }}/project
       remote_user: "{{ user }}"
 
